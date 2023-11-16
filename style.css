@@ -1,0 +1,31 @@
+/* Style the form and tables */
+form {
+  margin: 20px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 8px;
+  border: 1px solid #ddd;
+}
+
+th {
+  text-align: center;
+}
+
+input {
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}

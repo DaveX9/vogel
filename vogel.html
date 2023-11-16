@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vogel's Approximation Method</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Vogel's Approximation Method</h1>
+    <form action="vogel.php" method="post">
+        <label for="numSources">Number of Sources:</label>
+        <input type="number" id="numSources" name="numSources" min="2" required>
+        <label for="numDestinations">Number of Destinations:</label>
+        <input type="number" id="numDestinations" name="numDestinations" min="2" required>
+
+        <h2>Supply</h2>
+        <table id="supplyTable">
+            <thead>
+                <tr>
+                    <th>Source</th>
+                    <th>Supply</th>
+                </tr>
+            </thead>
+            <tbody>
+                </tbody>
+        </table>
+
+        <h2>Demand</h2>
+        <table id="demandTable">
+            <thead>
+                <tr>
+                    <th>Destination</th>
+                    <th>Demand</th>
+                </tr>
+            </thead>
+            <tbody>
+                </tbody>
+        </table>
+
+        <h2>Transportation Costs</h2>
+        <table id="costTable">
+            <thead>
+                <tr>
+                    <th></th>
+                    </tr>
+            </thead>
+            <tbody>
+                </tbody>
+        </table>
+
+        <button type="submit">Solve</button>
+    </form>
+</body>
+</html>
